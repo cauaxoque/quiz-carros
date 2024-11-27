@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Quizz!</h1>
+        <div id="start-container">
+            <input type="text" id="username" placeholder="Digite seu nome" required>
+            <button id="start-btn">Começar</button>
+        </div>
+        <div id="quiz-container" class="hidden">
+            <div id="question-container"></div>
+            <img id="question-image" src="https://play-lh.googleusercontent.com/62mt0s0K3Yzmyhtg5Yx9xFUtr_2fF_9jpNP8kS2c3ALkwv0OKPbPMAgp9i2sU_36F5c" alt="Imagem da pergunta" class="hidden">
+            <div id="timer">Tempo restante: <span id="time">30</span> segundos</div>
+            <div id="options-container"></div>
+            <button id="next-btn" class="hidden">Próxima Pergunta</button>
+            <div id="score-container" class="hidden">
+                <h2>Seu Placar: <span id="score">0</span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>Desenvolvido por Cauã e José Carlos</footer>
+</body>
+</html>
